@@ -1,0 +1,39 @@
+.board {
+  position: relative;
+
+  width: 450px;
+  height: 450px;
+  margin: 0 auto;
+
+  background-color: var(--background_gray);
+  border-radius: 10px;
+}
+
+.button {
+  align-self: center;
+  margin-bottom: 25px;
+  padding: 16px 32px;
+
+  font-size: 40px;
+  color: var(--background_white);
+  color: white;
+
+  background-color: var(--background_blue);
+  border-style: unset;
+  border-radius: 10px;
+  box-shadow: 0 16px 19px -13px #b4b4b4;
+}
+
+.button:hover {
+  max-width: 400px;
+
+  background-color: var(--background_blue-dark);
+  cursor: pointer;
+}
+
+.win {
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  color: var(--text-red-dark);
+}

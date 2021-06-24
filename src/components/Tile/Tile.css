@@ -1,0 +1,35 @@
+.tile {
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+
+  font-weight: 600;
+  font-size: 40px;
+  color: var(--text_black);
+
+  background-color: var(--background_white);
+  border-radius: 10px;
+  box-shadow: 0 16px 19px -13px #b4b4b4;
+  cursor: pointer;
+
+  transition: left 0.4s, top 0.4s;
+}
+
+.tile:hover {
+  background-color: var(--background_white-dark);
+}
+
+.emptyTile {
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: none;
+  cursor: initial;
+}
+
+.emptyTile:hover {
+  background-color: transparent;
+}

@@ -1,0 +1,12 @@
+:root {
+    --text_black: #333333;
+    --text-red-dark: #e0282e;
+    --background_gray: #dcdcdc;
+    --background_white: #fafafa;
+    --background_white-dark: #e8e8e8;
+    --background_blue: #4d95ec;
+    --background_blue-dark: #2d81e9;
+    
+    --desktop-width: 980px;
+    --desktop-padding: 29px;
+}
